@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ssm_student:Web exploded">
+  <artifact type="exploded-war" build-on-make="true" name="ssm_student:Web exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/ssm_student_Web_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="ssm_student/web/Web" />

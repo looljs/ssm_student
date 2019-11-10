@@ -119,4 +119,20 @@
 
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <!-- 指定web.xml的路径  -->
+                    <webXml>G:/projects/ssm_student/web/WEB-INF/web.xml</webXml>
+                    <!-- 指定jsp、js、css的路劲 -->
+                    <warSourceDirectory>G:/projects/ssm_student/web</warSourceDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

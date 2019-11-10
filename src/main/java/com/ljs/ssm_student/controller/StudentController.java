@@ -214,7 +214,7 @@ public class StudentController {
             map.put("msg","文件内容不支持");
             return map;
         }
-        String savePath = request.getSession().getServletContext().getRealPath("/") + "\\uploadfile\\";
+        String savePath = request.getSession().getServletContext().getRealPath("/") + "uploadfile";
         File savePathFile = new File(savePath);
         if(!savePathFile.exists()){
             savePathFile.mkdir();//如果不存在，则创建一个文件夹upload
